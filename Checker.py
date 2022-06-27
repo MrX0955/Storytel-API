@@ -53,6 +53,7 @@ if choice == "1":
         else:
             print(f" {Fore.GREEN} Combolist Yükleniyor.")
             os.system('cls')
+            print(menuu())
             with open(fileNameToken.name, "r", encoding="utf-8") as i:
                 tokenn = i.readlines()
                 for lines in tokenn:
@@ -103,6 +104,7 @@ if choice == "2":
         else:
             print(f" {Fore.GREEN} Combolist Yükleniyor.")
             os.system('cls')
+            print(menuu())
             with open(fileNameToken.name, "r", encoding="utf-8") as i:
                 tokenn = i.readlines()
                 for lines in tokenn:
